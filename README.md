@@ -1,3 +1,23 @@
+
+
+
+# figma frame used
+https://builder.io/content/28b9dc6b36db4bfbbe4c19e09c9284fd/edit
+
+# builder.io prompt
+create separate component for each section and use parent, child relation. create html,css and ts files for every component
+
+# builder io sync command 
+npx builder.io@latest add f26f8c4f
+
+# steps to create project and copy generated code
+pre-requisite: add Builder extension to Visual Studio code
+1. create a new angular project using CLI
+2. run command ng new WUPOS_POC in command prompt
+3. run cd WUPOS_CLI
+4. run command npx builder.io@latest add f26f8c4f ( you get this command when you click on sync code in builder.io generated code section)
+
+
 # WUPOSPOC
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.8.
